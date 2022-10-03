@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/autograde.iml" filepath="$PROJECT_DIR$/.idea/autograde.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/hw1_autograd_bouns.iml" filepath="$PROJECT_DIR$/.idea/hw1_autograd_bouns.iml" />
     </modules>
   </component>
 </project>
