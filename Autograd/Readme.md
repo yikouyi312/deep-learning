@@ -45,3 +45,6 @@
     - `mytorch/nn/modules/activations.py`
   * Loss Function 
     -  `mytorch/nn/modules/loss.py`
+  * CNN Function
+    - conv1d/conv2d `mytorch/nn/modules/conv.py`
+    - downsample/upsample `mytorch/nn/modules/resampling.py`
