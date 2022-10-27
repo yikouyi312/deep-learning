@@ -27,23 +27,6 @@ print('#################### Autograder Version v2 #########################')
 
 np.random.seed(2020)
 ############################################################################################
-################################   Section 3 - MCQ    ######################################
-############################################################################################
-
-def test_mcq_1():
-    return 'b' == mc.question_1()
-def test_mcq_2():
-    return 'd' == mc.question_2()
-def test_mcq_3():
-    return 'b' == mc.question_3()
-def test_mcq_4():
-    return 'a' == mc.question_4()
-def test_mcq_5():
-    res = 'a' == mc.question_5()        
-    print('-'*20)
-    return res 
-
-############################################################################################
 ################################   Section 4 - UpDownSampling    ###########################
 ############################################################################################
 
@@ -1460,36 +1443,6 @@ def test_conv1d_model():
 # 'autolab' is the name on autolab I think, but you probably won't need to worry about it.
 # The test functions should return True or False.
 tests = [
-    {
-        'name': '3.1 - MCQ 1 | 1 point',
-        'autolab': 'MCQ 1',
-        'handler': test_mcq_1,
-        'value': 1,
-    },
-    {
-        'name': '3.2 - MCQ 2 | 1 point',
-        'autolab': 'MCQ 2',
-        'handler': test_mcq_2,
-        'value': 1,
-    },
-    {
-        'name': '3.3 - MCQ 3 | 1 point',
-        'autolab': 'MCQ 3',
-        'handler': test_mcq_3,
-        'value': 1,
-    },
-    {
-        'name': '3.4 - MCQ 4 | 1 point',
-        'autolab': 'MCQ 4',
-        'handler': test_mcq_4,
-        'value': 1,
-    },
-    {
-        'name': '3.5 - MCQ 5 | 1 point',
-        'autolab': 'MCQ 5',
-        'handler': test_mcq_5,
-        'value': 1,
-    },
     {
         'name': '4.1.a - Downsampling1d | 2.5 points',
         'autolab': 'Downsampling1d',
