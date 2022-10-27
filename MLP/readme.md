@@ -1,22 +1,22 @@
 ## Table of contents
-* [MLP](#simple) 
-* [Autograd](#Autograd) 
+* [MLP](#MLP) 
+* [autograde](#autograde)
 
 # MLP
   - Activation Functions
-    - Sigmoid `mytorch.nn.Sigmoid`
-    - Tanh `mytorch.nn.Tanh`
-    - ReLU `mytorch.nn.ReLU`
+    - Sigmoid `MLP\mytorch.nn.Sigmoid`
+    - Tanh `MLP\mytorch.nn.Tanh`
+    - ReLU `MLP\mytorch.nn.ReLU`
   - Loss Functions
-    - MSE Loss `mytorch.nn.MSELoss`
-    - Cross-Entropy Loss `mytorch.nn.CrossEntropyLoss`
-  - Linear Layer `mytorch.nn.Linear`
-  - Optimizers `mytorch.optim.SGD`
+    - MSE Loss `MLP\mytorch.nn.MSELoss`
+    - Cross-Entropy Loss `MLP\mytorch.nn.CrossEntropyLoss`
+  - Linear Layer `MLP\mytorch.nn.Linear`
+  - Optimizers `MLP\mytorch.optim.SGD`
   - Regularization
     - Batch Normalization `mytorch.nn.BatchNorm1d`  
-# Autograd: Automatic Differentiation
-  - MemoryBuffer Class `mytorch.utils.MemoryBuffer`
-    - wrapper class that allow for updating the gradients
-  - AutogradEngine Class `mytorch.autograd_engine.Autograd`
-    - keep track of the sequence of operations being performed, and kicking off the backprop algorithm once the forward pass is complete.
-
+    
+# autograde
+  - Verify the code
+    - `MLP\autograder.ipynb`
+    - `MLP\autograder.py`
+    - `MLP\testsgd.py`
