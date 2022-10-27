@@ -4,10 +4,10 @@
   - reverse accumulation, computes the derivatives of the chain rule from outside to inside
 *  Autograd framework keeps track of the sequence of operations that are performed on the input data leading up to the final loss calculation. It then performs backpropagation and calculates all the necessary gradients.
 ## Table of contents
-* [AutogradEngine classes]
-* [MemoryBuffer classes]
-* [Operation classes]
-* [Other function]
+* [AutogradEngine classes](# AutogradeEngine)
+* [MemoryBuffer classes](# MemoryBuffer)
+* [Operation classes](# Operation)
+* [Other function](# Other functions)
 
 
 # AutogradEngine
