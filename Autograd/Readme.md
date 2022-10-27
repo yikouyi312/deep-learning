@@ -7,7 +7,7 @@
 * [AutogradEngine classes](#AutogradeEngine)
 * [MemoryBuffer classes](#MemoryBuffer)
 * [Operation classes](#Operation)
-* [Other function](#Other functions)
+* [Other function](#Other)
 
 
 # AutogradEngine
@@ -40,7 +40,7 @@
   - backward function : A backward function implemented for a specific operation.
     - `mytorch/nn/functional.py`
 
-  # Other functions
+  # Other
   * Activations
     - `mytorch/nn/modules/activations.py`
   * Loss Function 
